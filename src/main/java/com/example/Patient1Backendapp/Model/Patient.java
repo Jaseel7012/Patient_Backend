@@ -14,7 +14,7 @@ public class Patient {
     private int id;
     private int patient_id;
     private String patient_name;
-    private String address;
+
     private String contact_no;
     private String doc_name;
 
@@ -25,7 +25,7 @@ public class Patient {
         this.id = id;
         this.patient_id = patient_id;
         this.patient_name = patient_name;
-        this.address = address;
+
         this.contact_no = contact_no;
         this.doc_name = doc_name;
     }
@@ -54,13 +54,9 @@ public class Patient {
         this.patient_name = patient_name;
     }
 
-    public String getAddress() {
-        return address;
-    }
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
+
+
 
     public String getContact_no() {
         return contact_no;
